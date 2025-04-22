@@ -6,7 +6,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set your Google API key
-GOOGLE_API_KEY = "AIzaSyAHQh7TwV4ysqt0YTicZfxDLuAkbgvlmNo"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 class PlantImageAnalyzer:
